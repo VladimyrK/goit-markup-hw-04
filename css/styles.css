@@ -114,6 +114,11 @@ img {
   background: var(--secondary-color);
   box-shadow: var(--btn-box-shadow);
 }
+.btn-active {
+  color: var(--primary-bg-color);
+  background: var(--secondary-color);
+  box-shadow: var(--btn-box-shadow);
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -423,7 +428,7 @@ img {
 }
 /* Контакты */
 .footer .logo {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   color: var(--primary-bg-color);
 }
@@ -433,15 +438,14 @@ img {
   font-style: normal;
 }
 .footer-adress {
-  margin-bottom: 0;
+  margin-bottom: 9px;
   color: var(--primary-bg-color);
 }
 .footer-contacts {
   color: var(--footer-contacts-color);
 }
 .footer-mail {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus,
